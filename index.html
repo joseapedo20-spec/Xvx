@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Jennifer 😏💘</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .card {
+      background: white;
+      padding: 35px;
+      border-radius: 25px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+      max-width: 90%;
+    }
+    h1 {
+      color: #e60073;
+    }
+    button {
+      margin-top: 25px;
+      padding: 18px 35px;
+      font-size: 22px;
+      border: none;
+      border-radius: 40px;
+      background-color: #e60073;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🚨 Alerte importante 🚨</h1>
+    <p>Jennifer, question TRÈS sérieuse 😌</p>
+    <p>Veux-tu être ma Valentine ? 💘</p>
+    <p>⚠️ Une seule réponse possible ⚠️</p>
+    <button onclick="oui()">OUIIIII ❤️😂</button>
+  </div>
+
+  <script>
+    function oui() {
+      document.body.innerHTML = `
+        <div style="background:linear-gradient(135deg,#ff758c,#ff7eb3);
+        height:100vh;display:flex;justify-content:center;align-items:center;
+        text-align:center;font-family:Arial">
+          <h1>
+            🤣 CHOIX VALIDÉ !!!<br><br>
+            💘 Je savais que tu avais bon goût<br><br>
+            🌹 Saint-Valentin validée<br><br>
+            ❤️❤️❤️
+          </h1>
+        </div>`;
+    }
+  </script>
+</body>
+</html>
